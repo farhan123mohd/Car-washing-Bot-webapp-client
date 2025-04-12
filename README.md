@@ -46,6 +46,49 @@ car-wash-app/
 ├── database.py
 └── requirements.txt
 ```
+---
+## 🧰 How to Install MySQL Command Line Client
+To run MySQL commands from the terminal (like creating databases and tables), follow the steps below to install MySQL on your system:
+
+🔗 ###Download MySQL Installer
+👉 ###Download MySQL Installer
+
+##🛠️ Installation Steps
+Go to the official MySQL Installer page:
+###https://dev.mysql.com/downloads/installer/
+
+###1. Download the appropriate version:
+
+Choose MySQL Installer for Windows (Web or Full version).
+
+###2. Run the Installer:
+
+Choose "Developer Default" setup to install MySQL Server, MySQL Workbench, and MySQL Shell.
+
+### 3. Follow the Setup Wizard:
+
+Accept the license.
+
+Let it install the required dependencies.
+
+Choose MySQL Server version (8.x recommended).
+
+Set the root password when prompted and remember it!
+
+Complete the Configuration:
+
+Set port to default (3306).
+
+Configure the MySQL server to run as a Windows Service.
+
+Complete the installation and finish setup.
+
+Open MySQL Command Line Client:
+
+Search for “MySQL Command Line Client” in the Start Menu.
+
+Enter the root password you set earlier.
+
 
 ---
 
@@ -53,9 +96,8 @@ car-wash-app/
 
 ### 1. Login to MySQL
 
-```bash
-mysql -u root -p
-```
+Open Windows, Search for MySQL CommandLine.
+Enter password
 
 Enter your MySQL password when prompted.
 
