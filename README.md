@@ -250,7 +250,7 @@ Admins can stream live video from their camera using the admin dashboard. Users 
 For queries or contributions, contact:  
 **Your Name**  
 Email: muhammedfarhankk137@gmail.com
-GitHub: [yourusername](https://github.com/farhan123mohd)
+GitHub: [Mohammed Farhan K.K](https://github.com/farhan123mohd)
 Contact No: +91 8848523864
 
 ---
