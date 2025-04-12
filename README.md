@@ -50,18 +50,18 @@ car-wash-app/
 ## 🧰 How to Install MySQL Command Line Client
 To run MySQL commands from the terminal (like creating databases and tables), follow the steps below to install MySQL on your system:
 
-🔗 ###Download MySQL Installer
-👉 ###Download MySQL Installer
+#### 🔗 Download MySQL Installer
 
-##🛠️ Installation Steps
+
+###🛠️ Installation Steps
 Go to the official MySQL Installer page:
-###https://dev.mysql.com/downloads/installer/
+### https://dev.mysql.com/downloads/installer/
 
-###1. Download the appropriate version:
+#### 1. Download the appropriate version:
 
 Choose MySQL Installer for Windows (Web or Full version).
 
-###2. Run the Installer:
+#### 2. Run the Installer:
 
 Choose "Developer Default" setup to install MySQL Server, MySQL Workbench, and MySQL Shell.
 
