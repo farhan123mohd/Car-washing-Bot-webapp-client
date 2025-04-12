@@ -170,27 +170,38 @@ Admins can stream live video from their camera using the admin dashboard. Users 
 
 ## 📷 Screenshots
 
+### Home
 ![Home](screenshot/home.png)
 
+### Registration 
 ![Registration ](screenshot/reg.png)
 
+### User Login
 ![User Login](screenshot/userlogin.png)
 
+### Admin Login
 ![Admin Login](screenshot/adminlogin.png)
 
+### User Dashboard 
 ![User Dashboard](screenshot/userdash.png)
 
-![User Dashboard when Live](screenshot/liveuser.png)
-
+### Chat BOT
 ![Chatbot](screenshot/bot.png)
 
+### Payment 
 ![Payment](screenshot/payment.png)
 
-![Payment Success ](screenshot/paymentsuccess.png)
+### Payment Success
+![Payment Success ](screenshot/paymentsucces.png)
 
+### Admin Dashboard 
 ![Admin Dashboard ](screenshot/admindash.png)
 
+### Admin Live
 ![Admin Dashboard when Live ](screenshot/liveadmin.png)
+
+### Live In User
+![User Dashboard when Live](screenshot/liveuser.png)
 
 
 
