@@ -170,7 +170,29 @@ Admins can stream live video from their camera using the admin dashboard. Users 
 
 ## 📷 Screenshots
 
-*(Add screenshots of your UI, booking flow, chatbot, and admin dashboard here)*
+![Home](screenshot/home.png)
+
+![Registration ](screenshot/reg.png)
+
+![User Login](screenshot/userlogin.png)
+
+![Admin Login](screenshot/adminlogin.png)
+
+![User Dashboard](screenshot/userdash.png)
+
+![User Dashboard when Live](screenshot/dashboard.png)
+
+![Chatbot](screenshot/dashboard.png)
+
+![Payment](screenshot/payment.png)
+
+![Payment Success ](screenshot/paymentsuccess.png)
+
+![Admin Dashboard ](screenshot/admindash.png)
+
+![Admin Dashboard when Live ](screenshot/dashboard.png)
+
+
 
 ---
 
