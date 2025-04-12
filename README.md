@@ -40,7 +40,10 @@ car-wash-app/
 │   └── *.html files
 ├── app.py
 ├── camera.py
+├── chatbot.py
+├── config.py
 ├── README.md
+├── database.py
 └── requirements.txt
 ```
 
