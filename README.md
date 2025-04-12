@@ -68,27 +68,25 @@ Choose "Developer Default" setup to install MySQL Server, MySQL Workbench, and M
 
 #### 3. Follow the Setup Wizard:
 
-Accept the license.
+- Accept the license.
 
-Let it install the required dependencies.
+- Let it install the required dependencies.
 
-Choose MySQL Server version (8.x recommended).
+- Choose MySQL Server version (8.x recommended).
 
-Set the root password when prompted and remember it!
+- Set the root password when prompted and remember it!
 
-Complete the Configuration:
+- Complete the Configuration:
 
-Set port to default (3306).
+- Set port to default (3306).
 
-Configure the MySQL server to run as a Windows Service.
+- Configure the MySQL server to run as a Windows Service.
 
-Complete the installation and finish setup.
+- Complete the installation and finish setup.
 
-Open MySQL Command Line Client:
+- Open MySQL Command Line Client:
 
-Search for “MySQL Command Line Client” in the Start Menu.
-
-Enter the root password you set earlier.
+- Search for “MySQL Command Line Client” in the Start Menu.
 
 
 ---
@@ -96,9 +94,6 @@ Enter the root password you set earlier.
 ## ⚙️ MySQL Database Setup (via Command Line)
 
 ### 1. Login to MySQL
-
-Open Windows, Search for MySQL CommandLine.
-Enter password
 
 Enter your MySQL password when prompted.
 
