@@ -32,7 +32,6 @@ This is a full-stack Car Wash Booking Web Application built using **Flask**, **M
 
 ## 🗂️ Project Structure
 
-```
 car-wash-app/
 │
 ├── static/
