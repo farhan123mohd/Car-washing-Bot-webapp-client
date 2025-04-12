@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="{{ url_for('static', filename='images/logo-dark.png') }}" type="image/png">
+
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 30px;
+            background-color: #f0f4f8;
+        }
+
+        .logout-btn {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            text-decoration: none;
+            background-color: #ff4d4d;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        .stream-container {
+            margin-bottom: 30px;
+        }
+
+        #adminStream {
+            border-radius: 12px;
+            border: 2px solid #00acc1;
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 10px 5px 0 0;
+            padding: 8px 16px;
+            border: none;
+            background-color: #00acc1;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #007c91;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #00acc1;
+            color: white;
+        }
+
+        .premium {
+            background-color: #e0f7fa;
+            color: #156c77;
+            font-weight: bold;
+        }
+
+        .premium-tag {
+            color: #00acc1;
+            font-weight: bold;
+        }
+
+        img.status-image {
+            border-radius: 6px;
+            margin-top: 5px;
+        }
+
+        a.upload-link {
+            display: inline-block;
+            margin-top: 8px;
+            text-decoration: none;
+            color: #007c91;
+            font-weight: bold;
+        }
+
+        a.upload-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+
+    <h2>Welcome, Admin!</h2>
+
+    <div class="stream-container">
+        <h3>Live Service Stream</h3>
+        <img id="adminStream" width="500">
+        <br>
+        <button onclick="startStream()">Start Stream</button>
+        <button onclick="stopStream()">Stop Stream</button>
+    </div>
+
+    <h3>All User Bookings</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Email</th>
+                <th>Time</th>
+                <th>Service Center</th>
+                <th>Status</th>
+                <th>Image</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for booking in bookings %}
+            <tr class="{{ 'premium' if booking.is_premium else '' }}">
+                <td>
+                    {% if booking.is_premium %}
+                        <span class="premium-tag">🌟</span>
+                    {% endif %}
+                    {{ booking.full_name }}
+                    
+                </td>
+                <td>{{ booking.email }}</td>
+                <td>{{ booking.date_time }}</td>
+                <td>{{ booking.service_center }}</td>
+                <td>{{ booking.status }}</td>
+                <td>
+                    {% if booking.image %}
+                        <img src="{{ url_for('static', filename='uploads/' + booking.image) }}" width="120" class="status-image">
+                    {% else %}
+                        -
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{{ url_for('upload_status', booking_id=booking.id) }}" class="upload-link">Upload Status Image</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script>
+        function startStream() {
+            fetch('/start_stream')
+                .then(() => {
+                    document.getElementById("adminStream").src = "/video_feed";
+                    alert("Stream started");
+                });
+        }
+
+        function stopStream() {
+            fetch('/stop_stream')
+                .then(() => {
+                    document.getElementById("adminStream").src = "";
+                    alert("Stream stopped");
+                });
+        }
+    </script>
+
+</body>
+</html>

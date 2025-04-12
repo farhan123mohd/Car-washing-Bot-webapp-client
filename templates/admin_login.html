@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Source Codes By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}" />
+  <link rel="icon" href="{{ url_for('static', filename='images/logo-dark.png') }}" type="image/png">
+
+</head>
+<body>
+  <div class="login_form">
+    <!-- Login form container -->
+    <form method="POST">
+      <h3>Admin Login</h3>
+      <!-- Email input box -->
+      <div class="input_box">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter username" required />
+      </div>
+      <!-- Paswwrod input box -->
+      <div class="input_box">
+        <div class="password_title">
+          <label for="password">Password</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <input type="password" name="password" placeholder="Enter password" required />
+      </div>
+       <!-- Login button -->
+      <button type="submit">Log In</button>
+      <p class="sign_up">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
+</body>
+</html>
