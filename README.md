@@ -1,10 +1,10 @@
 
-```markdown
+
 # 🚗 Car Wash Booking Web Application
 
 This is a full-stack Car Wash Booking Web Application built using **Flask**, **MySQL**, and **HTML/CSS/JS**, integrated with a **Chatbot Interface** for user interaction. The application allows users to book car wash services, choose service centers, and view live admin video streams and service status with images.
 
----
+
 
 ## 📌 Features
 
@@ -31,7 +31,7 @@ This is a full-stack Car Wash Booking Web Application built using **Flask**, **M
 ---
 
 ## 🗂️ Project Structure
-
+```markdown
 car-wash-app/
 │
 ├── static/
@@ -170,37 +170,37 @@ Admins can stream live video from their camera using the admin dashboard. Users 
 
 ## 📷 Screenshots
 
-### Home
+### 1. Home
 ![Home](screenshot/home.png)
 
-### Registration 
+### 2. Registration 
 ![Registration ](screenshot/reg.png)
 
-### User Login
+### 3. User Login
 ![User Login](screenshot/userlogin.png)
 
-### Admin Login
+### 4. Admin Login
 ![Admin Login](screenshot/adminlogin.png)
 
-### User Dashboard 
+### 5. User Dashboard 
 ![User Dashboard](screenshot/userdash.png)
 
-### Chat BOT
+### 6. Chat BOT
 ![Chatbot](screenshot/bot.png)
 
-### Payment 
+### 7. Payment 
 ![Payment](screenshot/payment.png)
 
-### Payment Success
+### 8. Payment Success
 ![Payment Success ](screenshot/paymentsucces.png)
 
-### Admin Dashboard 
+### 9. Admin Dashboard 
 ![Admin Dashboard ](screenshot/admindash.png)
 
-### Admin Live
+### 10. Admin Live
 ![Admin Dashboard when Live ](screenshot/liveadmin.png)
 
-### Live In User
+### 11. Live In User
 ![User Dashboard when Live](screenshot/liveuser.png)
 
 
