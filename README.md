@@ -164,8 +164,8 @@ CREATE TABLE service_status (
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/car-wash-app.git
-cd car-wash-app
+git clone https://github.com/farhan123mohd/Car-washing-Bot-webapp-client.git
+cd car-washing-Bot-webapp-client
 ```
 
 ### 2. Install Dependencies
