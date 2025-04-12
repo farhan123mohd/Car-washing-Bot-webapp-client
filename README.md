@@ -53,7 +53,7 @@ To run MySQL commands from the terminal (like creating databases and tables), fo
 #### 🔗 Download MySQL Installer
 
 
-###🛠️ Installation Steps
+### 🛠️ Installation Steps
 Go to the official MySQL Installer page:
 ### https://dev.mysql.com/downloads/installer/
 
@@ -65,7 +65,7 @@ Choose MySQL Installer for Windows (Web or Full version).
 
 Choose "Developer Default" setup to install MySQL Server, MySQL Workbench, and MySQL Shell.
 
-### 3. Follow the Setup Wizard:
+#### 3. Follow the Setup Wizard:
 
 Accept the license.
 
