@@ -180,7 +180,7 @@ Admins can stream live video from their camera using the admin dashboard. Users 
 
 ![User Dashboard](screenshot/userdash.png)
 
-![User Dashboard when Live](screenshot/dashboard.png)
+![User Dashboard when Live](screenshot/liveuser.png)
 
 ![Chatbot](screenshot/dashboard.png)
 
@@ -190,7 +190,7 @@ Admins can stream live video from their camera using the admin dashboard. Users 
 
 ![Admin Dashboard ](screenshot/admindash.png)
 
-![Admin Dashboard when Live ](screenshot/dashboard.png)
+![Admin Dashboard when Live ](screenshot/liveadmin.png)
 
 
 
