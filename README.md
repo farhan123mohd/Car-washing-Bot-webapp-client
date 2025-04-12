@@ -169,17 +169,28 @@ git clone https://github.com/farhan123mohd/Car-washing-Bot-webapp-client.git
 cd car-washing-Bot-webapp-client
 ```
 
-### 2. Install Dependencies
+### 2. Create Virtual Environment
+Open the Terminal within Visual Studio (you can find it by going to View > Terminal or View > Other Windows > Terminal).
+```bash
+python -m venv venv
+```
+Once the virtual environment is created, you can activate it by running:
+
+```bash
+.\venv\Scripts\activate
+
+```
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Set Up MySQL Database
+### 4. Set Up MySQL Database
 
 Follow the steps in the **MySQL Setup** section above.
 
-### 4. Run the App
+### 5. Run the App
 
 ```bash
 python app.py
