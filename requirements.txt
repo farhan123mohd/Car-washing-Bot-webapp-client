@@ -3,5 +3,6 @@ Flask-SocketIO==5.1.1
 python-dotenv==0.19.0
 Werkzeug==2.0.1
 opencv-python     
-mysql-connector-python 
+mysql-connector-python
+MySQL-python
 eventlet        
