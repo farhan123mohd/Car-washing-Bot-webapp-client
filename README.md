@@ -1,5 +1,4 @@
 
-
 # 🚗 Car Wash Booking Web Application
 ## Python 3.13.1 (important)
 
@@ -157,6 +156,53 @@ CREATE TABLE service_status (
     image_url VARCHAR(255),
     status TEXT
 );
+```
+### 5. Add Data's to the database using command line MySQL 
+
+#### i) Open MySQL command line client
+
+Enter You Password
+
+#### ii) Select your database:
+```
+USE carwashing12345;
+```
+#### iii) admins Table:
+```
+INSERT INTO admins (username, password) VALUES 
+('admin2', 'securepass'),
+('carwash_admin', 'car123');
+
+```
+#### iv) users Table:
+```
+INSERT INTO users (full_name, mobile, email, password) VALUES 
+('Alice Smith', '9998887776', 'alice@gmail.com', 'alicepass'),
+('John Doe', '8887776665', 'john.doe@example.com', 'john123');
+
+```
+#### v) centers Table:
+```
+INSERT INTO centers (name, location) VALUES 
+('Premium Car Spa', 'Chennai'),
+('Urban Shine', 'Bangalore');
+
+```
+####  vi) slots Table:
+```
+INSERT INTO slots (slot_time, status) VALUES 
+('04:00 PM', 'available'),
+('05:00 PM', 'available');
+
+```
+#### vii) bookings Table:
+```
+INSERT INTO bookings 
+(user_id, car_type, slot, location, payment_status, booking_date, date_time, service_center, status, image_filename)
+VALUES
+(1, 'SUV', '10:00 AM', 'Kochi', 'Paid', NOW(), NOW(), 'Sparkle Wash', 'Booked', 'before1.png'),
+(2, 'Sedan', '11:00 AM', 'Calicut', 'Pending', NOW(), NOW(), 'Shiny Wheels', 'Booked', 'before2.png');
+
 ```
 
 ---
