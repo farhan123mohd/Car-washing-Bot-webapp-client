@@ -3,8 +3,8 @@
 # 🚗 Car Wash Booking Web Application
 ## Python 3.13.1 (important)
 
-This is a full-stack Car Wash Booking Web Application built using **Flask**, **MySQL**, and **HTML/CSS/JS**, integrated with a **Chatbot Interface** for user interaction. The application allows users to book car wash services, choose service centers, and view live admin video streams and service status with images.
----
+### This is a full-stack Car Wash Booking Web Application built using **Flask**, **MySQL**, and **HTML/CSS/JS**, integrated with a **Chatbot Interface** for user interaction. The application allows users to book car wash services, choose service centers, and view live admin video streams and service status with images.
+
 ### Live Webiste Preview [Live](https://car-washing-bot-webapp-client.onrender.com/)
 
 
