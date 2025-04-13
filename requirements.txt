@@ -1,8 +1,7 @@
-Flask
-Flask-SocketIO
-python-dotenv
-Werkzeug
+Flask==2.0.1
+Flask-SocketIO==5.1.1
+python-dotenv==0.19.0
+Werkzeug==2.0.1
 opencv-python     
 mysql-connector-python 
-eventlet          
-gunicorn
+eventlet        
